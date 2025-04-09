@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 172.29.16.1
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1744160559886
+  login: 1744160505705
+money: '0'
+last-account-name: Magnus0pus
+logoutlocation:
+  world: b32aadf1-d7af-4b43-9b78-bd7b46ffc0a3
+  world-name: ruins-of-altrac
+  x: -210.2988147474835
+  y: 17.0
+  z: 122.30188540102853
+  yaw: 157.50973510742188
+  pitch: 15.629674911499023
+mail:
+- legacy: false
+  read: false
+  message: Hello
+  sender-name: Magnus0pus
+  sender-uuid: 39098e7f-62ad-45c7-b706-1301ffcd2f67
+  timestamp: 1744160528420
+  expire: 0

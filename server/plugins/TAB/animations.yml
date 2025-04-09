@@ -1,0 +1,111 @@
+MyAnimation1:
+  change-interval: 100
+  texts:
+    - '&d-&3--------------'
+    - '&3-&d-&3-------------'
+    - '&3--&d-&3------------'
+    - '&3---&d-&3-----------'
+    - '&3----&d-&3----------'
+    - '&3-----&d-&3---------'
+    - '&3------&d-&3--------'
+    - '&3-------&d-&3-------'
+    - '&3--------&d-&3------'
+    - '&3---------&d-&3-----'
+    - '&3----------&d-&3----'
+    - '&3-----------&d-&3---'
+    - '&3------------&d-&3--'
+    - '&3-------------&d-&3-'
+    - '&3--------------&d-'
+    - '&3-------------&d-&3-'
+    - '&3------------&d-&3--'
+    - '&3-----------&d-&3---'
+    - '&3----------&d-&3----'
+    - '&3---------&d-&3-----'
+    - '&3--------&d-&3------'
+    - '&3-------&d-&3-------'
+    - '&3------&d-&3--------'
+    - '&3-----&d-&3---------'
+    - '&3----&d-&3----------'
+    - '&3---&d-&3-----------'
+    - '&3--&d-&3------------'
+    - '&3-&d-&3-------------'
+    - '&d-&3--------------'
+ServerName:
+  change-interval: 300
+  texts:
+  - '&c&lServerName'
+  - '&c&n&lServerName'
+  - '&b&lServerName'
+  - '&b&l&nServerName'
+  - '&e&lServerName'
+  - '&e&n&lServerName'
+web:
+  change-interval: 200
+  texts:
+  - '&ewww.betauia.net'
+  - '&ewww.betauia.net'
+  - '&ewww.betauia.net'
+  - '&ewww.betauia.net'
+  - '&ewww.betauia.net'
+  - '&ewww.betauia.net'
+  - '&6w&eww.betauia.net'
+  - '&ew&6w&ew.betauia.net'
+  - '&eww&6w&e.betauia.net'
+  - '&ewww&6.&ebetauia.net'
+  - '&ewww.&6b&eetauia.net'
+  - '&ewww.b&6e&etauia.net'
+  - '&ewww.be&6t&eauia.net'
+  - '&ewww.bet&6a&euia.net'
+  - '&ewww.beta&6u&eia.net'
+  - '&ewww.betau&6i&ea.net'
+  - '&ewww.betaui&6a&e.net'
+  - '&ewww.betauia&6.&enet'
+  - '&ewww.betauia.&6n&eet'
+  - '&ewww.betauia.n&6e&et'
+  - '&ewww.betauia.ne&6t'
+  - '&ewww.betauia.net'
+  - '&ewww.betauia.net'
+  - '&ewww.betauia.net'
+  - '&ewww.betauia.net'
+  - '&ewww.betauia.net'
+  - '&ewww.betauia.net'
+vote:
+  change-interval: 1000
+  texts:
+  - '&avote.domain.com'
+  - '&a&nvote.domain.com'
+  - '&5vote.domain.com'
+  - '&5&nvote.domain.com'
+Welcome:
+  change-interval: 400
+  texts:
+  - '&7&lW_'
+  - '&7&lW_'
+  - '&7&lWe_'
+  - '&7&lWel_'
+  - '&7&lWelc_'
+  - '&7&lWelco_'
+  - '&7&lWelcom_'
+  - '&7&lWelcome_'
+  - '&7&lWelcome_'
+  - '&7&lWelcome_'
+  - '&7&lWelcome_'
+  - '&7&lWelcom_'
+  - '&7&lWelco_'
+  - '&7&lWelc_'
+  - '&7&lWel_'
+  - '&7&lWe_'
+  - '&7&lW_'
+  - '&7&lW_'
+time:
+  change-interval: 3000
+  texts:
+    - '&7Time &b%time%'
+    - '&7Date &b%date%'
+barcolors:
+  change-interval: 1000
+  texts:
+    - RED
+    - BLUE
+    - GREEN
+    - YELLOW
