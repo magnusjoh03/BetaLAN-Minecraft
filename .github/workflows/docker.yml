@@ -1,0 +1,27 @@
+name: Docker Image CI
+
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v4
+    - name: Build the Docker image
+      run: docker build . --file Dockerfile --tag my-image-name:$(date +%s)
+    - name: Push to GHCR
+      uses: docker/build-push-action@v4
+      with:
+        context: .
+        push: true
+        tags: ghcr.io/your-github-username/your-repo-name:latest
+        file: ./Dockerfile
+        build-args: |
+          BASE_IMAGE=python:3.11-slim
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
