@@ -1,5 +1,9 @@
 name: Docker Image CI
 
+permissions:
+  contents: read
+  packages: write
+
 on:
   push:
     branches: [ "main" ]
@@ -12,16 +16,18 @@ jobs:
 
     steps:
     - uses: actions/checkout@v4
-    - name: Build the Docker image
-      run: docker build . --file Dockerfile --tag my-image-name:$(date +%s)
-    - name: Push to GHCR
+    - name: Log in to GHCR
+      uses: docker/login-action@v3
+      with:
+        registry: ghcr.io
+        username: ${{ github.actor }}
+        password: ${{ secrets.DOCKER_TOKEN }}
+    - name: Build & push to GHCR
       uses: docker/build-push-action@v4
       with:
         context: .
-        push: true
-        tags: ghcr.io/your-github-username/your-repo-name:latest
         file: ./Dockerfile
+        push: true
+        tags: ghcr.io/magnusjoh03/BETALAN-Minecraft:latest
         build-args: |
           BASE_IMAGE=python:3.11-slim
-      env:
-        GITHUB_TOKEN: ${{ secrets.DOCKER_TOKEN }}
